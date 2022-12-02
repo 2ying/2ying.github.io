@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>test</title>
+      <link href="/myblog/2022/12/02/test/"/>
+      <url>/myblog/2022/12/02/test/</url>
+      
+        <content type="html"><![CDATA[<p>作者：胡曜鹏<br><br>邮箱：<a href="mailto:&#x32;&#x39;&#49;&#52;&#x35;&#55;&#51;&#x30;&#52;&#x31;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#x6d;">&#x32;&#x39;&#49;&#52;&#x35;&#55;&#51;&#x30;&#52;&#x31;&#x40;&#113;&#x71;&#x2e;&#x63;&#111;&#x6d;</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/myblog/2022/12/01/hello-world/"/>
       <url>/myblog/2022/12/01/hello-world/</url>
