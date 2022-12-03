@@ -8,8 +8,14 @@
       <link href="/2022/12/03/Untitled/"/>
       <url>/2022/12/03/Untitled/</url>
       
-        <content type="html"><![CDATA[<p>  categories:<br>           - springmvc注解<br>   messageboard:<br>    - hyp<br>@ResponseBody和@RequestBody一般是在服务器端的controller中使用</p><p>@ResponseBody注解的作用是将controller的方法返回的对象通过适当的转换器转换为指定的格式之后，写入到response对象的body区，通常用来返回JSON数据或者是XML数据</p><p>@RequestBody主要用来接收前端传递给后端的json字符串中的数据的(请求体中的数据的)</p><p>@RequestBody与@RequestParam区别</p><ul><li>区别<ul><li>@RequestParam用于接收url地址传参，表单传参【application/x-www-form-urlencoded】</li><li>@RequestBody用于接收json数据【application/json】</li></ul></li><li>应用<ul><li>后期开发中，发送json格式数据为主，@RequestBody应用较广</li><li>如果发送非json格式数据，选用@RequestParam接收请求参数<br></li></ul></li><li>注意事项:<ul><li>1.如果一个方法上没有加入ResponseBody注解,则Spring会将方法的返回值封装为一个ModelAndView对象返回</li><li>2.如果一个方法上加入了ResponseBody注解时,当返回值是字符串时，则返回字符串至客户端<br> 如果返回值是一个对象时,则将对象转换为json串,返回到客户端</li><li>3.Responsebody返回值的编码需注意,<br>如:<br>RequestMapping(value=”/getUsers”,produces=”text/html;charset=utf-8”)</li></ul></li></ul>]]></content>
+        <content type="html"><![CDATA[<p>@ResponseBody和@RequestBody一般是在服务器端的controller中使用</p><p>@ResponseBody注解的作用是将controller的方法返回的对象通过适当的转换器转换为指定的格式之后，写入到response对象的body区，通常用来返回JSON数据或者是XML数据</p><p>@RequestBody主要用来接收前端传递给后端的json字符串中的数据的(请求体中的数据的)</p><p>@RequestBody与@RequestParam区别</p><ul><li>区别<ul><li>@RequestParam用于接收url地址传参，表单传参【application/x-www-form-urlencoded】</li><li>@RequestBody用于接收json数据【application/json】</li></ul></li><li>应用<ul><li>后期开发中，发送json格式数据为主，@RequestBody应用较广</li><li>如果发送非json格式数据，选用@RequestParam接收请求参数<br></li></ul></li><li>注意事项:<ul><li>1.如果一个方法上没有加入ResponseBody注解,则Spring会将方法的返回值封装为一个ModelAndView对象返回</li><li>2.如果一个方法上加入了ResponseBody注解时,当返回值是字符串时，则返回字符串至客户端<br> 如果返回值是一个对象时,则将对象转换为json串,返回到客户端</li><li>3.Responsebody返回值的编码需注意,<br>如:<br>RequestMapping(value=”/getUsers”,produces=”text/html;charset=utf-8”)</li></ul></li></ul>]]></content>
       
+      
+      <categories>
+          
+          <category> springmvc注解 </category>
+          
+      </categories>
       
       
         <tags>
